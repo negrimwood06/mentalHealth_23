@@ -1,0 +1,354 @@
+body{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding:0 20px;
+}
+
+.header{
+    background-color: #9CF5A6;
+    height: 100px;
+    
+}
+
+.main-heading{
+    text-align: center;
+    font-size: 80px;
+    margin: auto;
+}
+
+.logo1{
+    border-radius: 50%;
+    float: right;
+    height: 5em;
+    margin-right: 5em;
+    margin-top: 0.5em;
+}
+
+.subheader {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: auto;
+}
+
+.writting {
+    text-align: center;
+    color: black;
+}
+
+
+.image2 {
+    border-radius: 50%;
+    height: 10em;
+    width: 10em;
+    float: right;
+    margin-right: 5em;
+    margin-top: 0.5em;
+}
+
+.image1 {
+    border-radius: 50%;
+    height: 10em;
+    width: 10em;
+}
+
+footer {
+    background-color: #9CF5A6;
+    color: #fff;
+/*    padding: 20px;*/
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+/*    text-align: right;*/
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    height: auto;
+    width: 30px;
+    float: right;
+    padding-bottom: 1em;
+}
+
+.footer-header {
+    float: top right;
+    padding-top: 1em;
+    
+}
+
+.line {
+    color: black;
+}
+
+.signlog {
+    border-radius: 50%;
+    height: 50px;
+    float: right;
+    padding-top: 1em;
+}
+
+.design-column {
+    display: flex;
+    border-bottom: 1px;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.design-row {
+    display: flex;
+}
+
+.design-image {
+    width: 125px;
+    height: 125px;
+    border-radius: 10px;
+}
+
+.logo {
+    font-size: 25px;
+    padding: 0, 15px;
+}
+
+
+.menubar {
+    height: 25px;
+    width: 25px;
+}
+
+
+.menu-bar {
+  width: 100px;
+  background-color: pink;
+  padding: 10px;
+}
+
+/* Hide the menu content by default using display property */
+.menu-content {
+  display: none;
+}
+
+/* Style the menu items */
+.menu-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-content li {
+  padding: 8px;
+}
+
+.menu-content a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Show the menu content when the "show" class is added */
+.menu-content.show {
+  display: block;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+    padding: 16px;
+    display: inline-block;
+    width: 100%;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.dropbtn {
+  background-color: inherit;
+  color: white;
+/*  padding: 10px;*/
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+    right: 0;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.example-writing {
+    text-align: center;
+}
+
+/*meet the team*/
+.important-item-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+/*    font-weight: bold;*/
+    font-size: 1.5em;
+    color: #333;
+/*    margin-bottom: 15px;*/
+}
+
+/*
+.important-item-details{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.important-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+*/
+
+.btn-test{
+    color: white;
+    background-color: powderblue;
+    border: none;
+    border-radius: .5em;
+    font-weight: bold;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-priamry{
+    color: white;
+    background-color: powderblue;
+    border: none;
+    border-radius: .5em;
+    font-weight: bold;
+}
+
+.btn-priamry:hover{
+    background-color: #2d9cdb;
+}
+
+.shop-image {
+    width: 200px;
+    height: 200px;
+}
+
+.icon-shop {
+    width: 20px;
+    height: 20px;
+}
+
+/*shop*/
+.shop-item{
+    margin: 30px;
+}
+
+.shop-item-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+
+.shop-item-details{
+/*    display: flex;*/
+    align-items: center;
+    padding: 10px;
+}
+
+.shop-item-price{
+    flex-grow: 1;
+    color: #333;
+    justify-content: space-around;
+}
+
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.shop-item-image{
+    width: 200px;
+    height: 200px;
+}
+
+.shop-item-name{
+    flex-grow: 1;
+    color: #333;
+    justify-content: space-around;
+}
+
+.content-section{
+    margin: 1em;
+}
+
+.container{
+    max-width: 900px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.shopping-image {
+    border-radius: 50%;
+    height: 30px;
+    float: right;
+    padding-top: 1em;
+}
+
+.video {
+   align-content: center;
+}
